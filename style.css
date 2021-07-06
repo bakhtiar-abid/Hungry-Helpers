@@ -3,7 +3,7 @@ body {
    margin: 0;
 }
 
-.color {
+.color-for-specific-font {
    color: rgba(34, 34, 180, 0.623);
 }
 
@@ -25,10 +25,14 @@ h2 {
    width: 50%;
    padding-top: 5%;
    padding-left: 7%;
-   margin-bottom: 5%;
+   margin-bottom: 10%;
 }
 .half-width p {
+   color: black;
+}
+#color-font-for-ordersection {
    color: white;
+   margin-bottom: 10%;
 }
 
 .half-width img {
@@ -57,9 +61,8 @@ h2 {
    width: 80%;
    padding-left: 30%;
 }
-#change-color-section-two-font {
+#change-pad-mar-about-us {
    padding-right: 25%;
-   color: black;
    margin-bottom: 10%;
 }
 /* for recipie section as well as section-three */
@@ -78,13 +81,43 @@ h2 {
 }
 
 .recipie-item {
-   box-shadow: 10px 10px 40px gray;
+   box-shadow: 10px 10px 40px grey;
    margin-top: 10%;
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 3%;
+   margin-right: 2%;
    border-radius: 5%;
    margin-bottom: 10%;
    padding-left: 2%;
    padding-right: 2%;
-   padding-bottom: 2%;
+   padding-bottom: 10%;
+}
+
+.download-app {
+   background-image: linear-gradient(#edf6e5, #edf6e5);
+}
+.for-margin-download-app {
+   margin-bottom: 10%;
+}
+
+.subscription-box {
+   box-shadow: 10px 10px 40px grey;
+   margin: 10% 5%;
+   border-radius: 20px;
+}
+
+.subscriber {
+   margin-left: 20%;
+}
+
+.footer {
+   text-align: center;
+   background-color: black;
+   padding-top: 10px;
+   padding-bottom: 5%;
+}
+footer h3 {
+   color: whitesmoke;
+}
+footer p {
+   color: white;
 }
