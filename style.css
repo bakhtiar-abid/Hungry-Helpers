@@ -9,12 +9,16 @@ body {
 
 h1 {
    font-size: 50px;
-   font-weight: 700;
+}
+
+h2 {
+   font-size: 50px;
 }
 
 .first-section {
    background-image: url(images/shapes/Group\ 8446.png);
    background-repeat: no-repeat;
+   margin-bottom: 100px;
 }
 
 .half-width {
@@ -36,8 +40,24 @@ h1 {
 .link-button {
    text-decoration: none;
    background-image: linear-gradient(orange, tomato);
-   padding: 10px 40px;
+   padding: 12px 40px;
    font-weight: 700;
    color: white;
-   border-radius: 10px;
+   border-radius: 50px;
+}
+
+.second-section {
+   background-image: url(images/shapes/7.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+#adjust-img {
+   width: 80%;
+   padding-left: 25%;
+}
+#change-color-section-two {
+   padding-right: 25%;
+   color: black;
+   margin-bottom: 10%;
 }
