@@ -1,0 +1,43 @@
+body {
+   font-family: "Roboto", sans-serif;
+   margin: 0;
+}
+
+.color {
+   color: rgba(34, 34, 180, 0.623);
+}
+
+h1 {
+   font-size: 50px;
+   font-weight: 700;
+}
+
+.first-section {
+   background-image: url(images/shapes/Group\ 8446.png);
+   background-repeat: no-repeat;
+}
+
+.half-width {
+   width: 50%;
+   padding-top: 5%;
+   padding-left: 6%;
+   margin-bottom: 5%;
+}
+.half-width p {
+   color: white;
+}
+
+.half-width img {
+   width: 105%;
+}
+.flexible-container {
+   display: flex;
+}
+.link-button {
+   text-decoration: none;
+   background-image: linear-gradient(orange, tomato);
+   padding: 10px 40px;
+   font-weight: 700;
+   color: white;
+   border-radius: 10px;
+}
